@@ -177,7 +177,7 @@ public class jojo {
                     System.out.println("card declined");}
                     else if (choice2 == 3){
                     System.out.println("no cash says the vending machine");}
-                }
+                }0
             }
             else if (choice2 == 2)
                 System.out.println("Supa Idol comes from the sky and slaps you into the sun *BASED ENDING*");    
