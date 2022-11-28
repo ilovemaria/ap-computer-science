@@ -33,7 +33,27 @@ public class Draw2 extends JPanel {
         g.fillArc(500, 400, 800, 200, 0,  180);
         g.setColor(Color.DARK_GRAY);
         g.fillRect(850, 800, 150, 300);
+        g.setColor(Color.ORANGE);
+        g.fillRect(100, 500, 150, 700);
+        g.setColor(Color.BLUE);
+        g.fillRect(600, 800, 150, 150);
+        g.fillRect(1100, 800, 150, 150);
+        g.setColor(Color.GREEN);
+        g.fillOval(30, 400, 300, 300);
+        g.setColor(Color.BLACK);
+        g.drawLine(1800, 900, 1500, 900);
+        g.setColor(Color.DARK_GRAY);
+        g.fillOval(1500, 700, 150, 150);
+        int scott = 0; 
         
+
+        while (scott < 20) {
+            int banan = scott*100;
+            g.setColor(Color.ORANGE);
+            g.drawString("black bean", banan, 100);
+            scott++;
+            
+        }
     }
 
     public static void main(String[] args) {

@@ -33,7 +33,7 @@ public class TEXTPARSINPING{
         int length = phrase.length();
         int halfway = length/2;
         int third = length/3;
-        in twothirds = length*2/3;
+        int twothirds = length*2/3;
 
         System.out.println(word + " is " + length + " characters long");
         System.out.println("the middle letter is " + phrase.substring(0, halfway));
