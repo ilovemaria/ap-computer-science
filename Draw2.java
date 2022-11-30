@@ -43,7 +43,12 @@ public class Draw2 extends JPanel {
         g.setColor(Color.BLACK);
         g.drawLine(1800, 900, 1500, 900);
         g.setColor(Color.DARK_GRAY);
-        g.fillOval(1500, 700, 150, 150);
+        g.fillOval(1450, 890, 100, 100);
+        g.fillOval(1780, 890, 100, 100);
+        g.fillRect(1480, 700, 35, 200);
+        g.fillRect(1400, 700, 200, 20);
+    
+
         int scott = 0; 
         
 
