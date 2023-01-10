@@ -1,22 +1,6 @@
 import java.util.Scanner;
 import javax.sound.sampled.SourceDataLine;
 
-class Computer{
-    private String processor;
-    private int memory;
-    private int storage;
-
-    public Computer(String proc, int mem,  int stor){
-        processor = proc;
-        memory = mem;
-        storage = stor;
-    }
-
-    public String toString(){
-
-        return processor + ", " + memory + "GB memory, " +storage +  "ZB storage.";
-    }
-}
 
 class Lasagna{
     String removeLastCharacters(String word) {
@@ -24,6 +8,16 @@ class Lasagna{
     }
     
 }
+
+class Banana{
+
+    int bananamath(int x) {
+        
+
+    }
+}
+
+
 
 public class introtoooop {
     public static void main(String[] args) {
